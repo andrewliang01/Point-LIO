@@ -103,7 +103,7 @@ Clone the repository and catkin_make:
     cd ~/$A_ROS_DIR$/src
     git clone https://github.com/LihanChen2004/Point-LIO.git
     cd ..
-    rosdepc install -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO -
+    rosdep install -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO
     colcon build --symlink-install -DCMAKE_BUILD_TYPE=Release
     source install/setup.bash # use setup.zsh if use zsh
 ```
