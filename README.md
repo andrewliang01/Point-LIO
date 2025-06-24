@@ -84,6 +84,7 @@ Following the official [Eigen installation](eigen.tuxfamily.org/index.php?title=
 
 ```sh
 sudo apt-get install libeigen3-dev
+sudo apt-get install libgoogle-glog-dev
 ```
 
 ### **3.3 livox_ros_driver2**
